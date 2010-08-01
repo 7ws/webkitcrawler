@@ -99,6 +99,3 @@ class Page(object):
         proc.start()
         self.main_frame = queue.get().main_frame
         proc.join()
-
-p = Page('http://www.htmlcodetutorial.com/frames/_IFRAME.html')
-print [f.title for f in p.main_frame.child_frames]
