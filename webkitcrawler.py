@@ -79,7 +79,7 @@ class Frame(object):
     @staticmethod
     def fromQWebFrame(frame):
         return Frame(unicode(frame.toHtml()),
-            url=str(frame.baseUrl()),
+            url=str(frame.url()),
             name=str(frame.frameName()),
             title=unicode(frame.title()),
         )
