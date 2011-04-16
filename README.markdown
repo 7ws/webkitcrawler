@@ -2,7 +2,7 @@
 
 A Python Qt based tool for extracting content from complex websites.
 
-    from webkitcralwer import Browser
+    from webkit_browser import Browser
     from lxml import html
 
     b = Browser()
